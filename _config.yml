@@ -1,6 +1,6 @@
 name: Vo Duc Chinh
 permalink: :year/:month/:day/:title
-baseurl: /jekyll-theme-diary
+baseurl: /journal
 
 # Your blog's start year and this year, showed in the footer left
 # start is optional
