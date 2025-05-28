@@ -7,7 +7,13 @@ article {
     background: #fff;
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
-    text-rendering: optimizelegibility;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-feature-settings: "kern" 1;
+    font-kerning: normal;
+    line-height: 1.8;
+    -webkit-text-stroke: 0.01em transparent;
 }
 
 /* 如果你的项目仅支持 IE9+ | Chrome | Firefox 等，推荐在 <html> 中添加 .borderbox 这个 class */
@@ -36,7 +42,10 @@ audio, canvas, video {
 /* 要注意表单元素并不继承父级 font 的问题 */
 /*body, */
 article, button, input, select, textarea {
-    font: 300 1em/1.8 PingFang SC, Lantinghei SC, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans;
+    font: 500 1em/1.8 -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Microsoft YaHei UI", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-stroke: 0.01em transparent;
 }
 
 button::-moz-focus-inner,
@@ -202,7 +211,7 @@ small, .typo-small,
     /* 图片说明 */
 figcaption {
     font-size: 0.9em;
-    color: #888;
+    color: #666;
 }
 
 strong, b {
@@ -251,7 +260,7 @@ strong, b {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: PingFang SC, Verdana, Helvetica Neue, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans-serif;
-    font-weight: 100;
+    font-weight: 600;
     color: #000;
     line-height: 1.35;
 }
@@ -325,6 +334,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* 去除 webkit 中 input 和 textarea 的默认样式  */
 .typo-input, .typo-textarea {
+    appearance: none;
     -webkit-appearance: none;
     border-radius: 0;
 }

@@ -6,10 +6,21 @@
 @import "calendar";
 
 * {
-    font-family: "Microsoft YaHei UI";
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Microsoft YaHei UI", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    font-feature-settings: "kern" 1;
+    font-kerning: normal;
+    -webkit-text-stroke: 0.01em transparent;
 }
+
 body {
     margin: 0 0;
+    line-height: 1.8;
+    color: #1a1a1a;
+    font-size: 18px;
+    font-weight: 500;
 }
 
 a {
@@ -28,9 +39,9 @@ a {
 header {
     z-index: -10;
     padding: 1.6rem 10rem 4rem;
-    color: #aaa6ab;
+    color: #6a6a6a;
     background-color: #fafafa;
-    font-weight: 300;
+    font-weight: 500;
     font-size: large;
     box-sizing: border-box;
 }
@@ -56,15 +67,15 @@ nav ul li {
     position: relative;
     margin: 0 3.6em 0 0;
     list-style: none;
-    color: #aaa6ab;
+    color: #6a6a6a;
 }
 
 nav ul li a {
-	 color: #aaa6ab;
+	 color: #6a6a6a;
 }
 
 nav ul li a:hover {
-	 color: #5e5d5d;
+	 color: #333333;
 }
 
 nav ul li:first-child {
@@ -132,9 +143,9 @@ footer {
     position: relative;
     /*bottom: 4rem;*/
     padding: 3rem 10rem;
-    color: #aaa6ab;
+    color: #6a6a6a;
     background-color: #fafafa;
-    font-weight: 400;
+    font-weight: 500;
     /*font-size: small;*/
     box-sizing: border-box;
 }
@@ -144,7 +155,7 @@ footer div {
 }
 
 footer span.copyright {
-    color: #5e5d5d;
+    color: #333333;
     font-weight: bold;
     width: inherit;
 }
@@ -156,12 +167,12 @@ footer span.copyright {
 }
 
 .comment a {
-	color: #aaa6ab;
+	color: #6a6a6a;
 }
 
 .comment a:hover {
-    font-weight: 400;
-    color: #5e5d5d;
+    font-weight: 500;
+    color: #333333;
 	text-decoration: none;
 }
 
@@ -176,8 +187,8 @@ ul.contact li {
     display: inline-block;
     margin-right: 1em;
     list-style: none;
-    color: #aaa6ab;
-    font-size: .6em;
+    color: #6a6a6a;
+    font-size: .7em;
 }
 
 footer ul.contact li:last-child {
@@ -185,11 +196,11 @@ footer ul.contact li:last-child {
 }
 
 .contact li i {
-    color: #aaa6ab;
+    color: #6a6a6a;
 }
 
 .contact li i:hover {
-    color: #5e5d5d;
+    color: #333333;
 }
 
 @import "layout";

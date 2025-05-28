@@ -51,9 +51,9 @@
 
 .cal-month {
   border: 1px solid transparent;
-  color: $text-light;
-  border-top-color: $text-light;
-  border-bottom-color: $text-light;
+  color: $text;
+  border-top-color: $text-lighter;
+  border-bottom-color: $text-lighter;
 
   &:hover {
     color: $text;
