@@ -10,17 +10,14 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
-    font-feature-settings: "kern" 1;
-    font-kerning: normal;
-    -webkit-text-stroke: 0.01em transparent;
 }
 
 body {
     margin: 0 0;
-    line-height: 1.8;
-    color: #1a1a1a;
-    font-size: 18px;
-    font-weight: 500;
+    line-height: 1.6;
+    color: #333333;
+    font-size: 16px;
+    font-weight: 400;
 }
 
 a {
@@ -39,9 +36,9 @@ a {
 header {
     z-index: -10;
     padding: 1.6rem 10rem 4rem;
-    color: #6a6a6a;
+    color: #888888;
     background-color: #fafafa;
-    font-weight: 500;
+    font-weight: 400;
     font-size: large;
     box-sizing: border-box;
 }
@@ -67,15 +64,15 @@ nav ul li {
     position: relative;
     margin: 0 3.6em 0 0;
     list-style: none;
-    color: #6a6a6a;
+    color: #888888;
 }
 
 nav ul li a {
-	 color: #6a6a6a;
+	 color: #888888;
 }
 
 nav ul li a:hover {
-	 color: #333333;
+	 color: #555555;
 }
 
 nav ul li:first-child {
@@ -143,9 +140,9 @@ footer {
     position: relative;
     /*bottom: 4rem;*/
     padding: 3rem 10rem;
-    color: #6a6a6a;
+    color: #888888;
     background-color: #fafafa;
-    font-weight: 500;
+    font-weight: 400;
     /*font-size: small;*/
     box-sizing: border-box;
 }
@@ -155,7 +152,7 @@ footer div {
 }
 
 footer span.copyright {
-    color: #333333;
+    color: #555555;
     font-weight: bold;
     width: inherit;
 }
@@ -167,12 +164,12 @@ footer span.copyright {
 }
 
 .comment a {
-	color: #6a6a6a;
+	color: #888888;
 }
 
 .comment a:hover {
-    font-weight: 500;
-    color: #333333;
+    font-weight: 400;
+    color: #555555;
 	text-decoration: none;
 }
 
@@ -187,8 +184,8 @@ ul.contact li {
     display: inline-block;
     margin-right: 1em;
     list-style: none;
-    color: #6a6a6a;
-    font-size: .7em;
+    color: #888888;
+    font-size: .6em;
 }
 
 footer ul.contact li:last-child {
@@ -196,11 +193,11 @@ footer ul.contact li:last-child {
 }
 
 .contact li i {
-    color: #6a6a6a;
+    color: #888888;
 }
 
 .contact li i:hover {
-    color: #333333;
+    color: #555555;
 }
 
 @import "layout";
